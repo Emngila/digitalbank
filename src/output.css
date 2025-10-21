@@ -689,6 +689,11 @@
       grid-row-start: 1;
     }
   }
+  .xl\:mt-4 {
+    @media (width >= 1280px) {
+      margin-top: calc(var(--spacing) * 4);
+    }
+  }
   .xl\:mt-8 {
     @media (width >= 1280px) {
       margin-top: calc(var(--spacing) * 8);
@@ -820,6 +825,16 @@
   .xl\:gap-x-8 {
     @media (width >= 1280px) {
       column-gap: calc(var(--spacing) * 8);
+    }
+  }
+  .xl\:gap-y-0 {
+    @media (width >= 1280px) {
+      row-gap: var(--spacing-0);
+    }
+  }
+  .xl\:gap-y-4 {
+    @media (width >= 1280px) {
+      row-gap: calc(var(--spacing) * 4);
     }
   }
   .xl\:gap-y-6 {
