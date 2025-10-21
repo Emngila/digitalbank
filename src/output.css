@@ -689,6 +689,16 @@
       grid-row-start: 1;
     }
   }
+  .xl\:m-2 {
+    @media (width >= 1280px) {
+      margin: calc(var(--spacing) * 2);
+    }
+  }
+  .xl\:m-4 {
+    @media (width >= 1280px) {
+      margin: calc(var(--spacing) * 4);
+    }
+  }
   .xl\:mt-0 {
     @media (width >= 1280px) {
       margin-top: var(--spacing-0);
@@ -717,6 +727,16 @@
   .xl\:mr-\[-12\%\] {
     @media (width >= 1280px) {
       margin-right: -12%;
+    }
+  }
+  .xl\:mb-2 {
+    @media (width >= 1280px) {
+      margin-bottom: calc(var(--spacing) * 2);
+    }
+  }
+  .xl\:mb-4 {
+    @media (width >= 1280px) {
+      margin-bottom: calc(var(--spacing) * 4);
     }
   }
   .xl\:mb-16 {
