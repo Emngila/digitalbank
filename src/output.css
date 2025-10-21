@@ -724,6 +724,11 @@
       margin-top: calc(var(--spacing) * 16);
     }
   }
+  .xl\:mt-24 {
+    @media (width >= 1280px) {
+      margin-top: calc(var(--spacing) * 24);
+    }
+  }
   .xl\:mt-\[-160px\] {
     @media (width >= 1280px) {
       margin-top: -160px;
