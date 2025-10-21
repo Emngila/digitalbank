@@ -689,6 +689,16 @@
       grid-row-start: 1;
     }
   }
+  .xl\:mt-0 {
+    @media (width >= 1280px) {
+      margin-top: var(--spacing-0);
+    }
+  }
+  .xl\:mt-2 {
+    @media (width >= 1280px) {
+      margin-top: calc(var(--spacing) * 2);
+    }
+  }
   .xl\:mt-4 {
     @media (width >= 1280px) {
       margin-top: calc(var(--spacing) * 4);
